@@ -1,11 +1,15 @@
-import React from 'react';
+import React from 'react'
+import Counter from './components/Counter'
+import Todos from './components/Todos'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      하이
+    <div>
+      <Counter number={0} />
+      <hr />
+      <Todos />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
